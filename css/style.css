@@ -1,0 +1,67 @@
+body {
+    padding: 25px;
+    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo h1 {
+    font-weight: bold;
+    font-size: 1.6em;
+    font-family: "Norse";
+    color: #cc9543;
+    flex: 1;
+    padding-left: 0.5em;
+    text-transform: uppercase;
+}
+
+.center {
+    align-items: center;
+}
+
+header {
+    margin: 0 7rem;
+}
+
+header a {
+    color: rgba(74,74,74,0.7);
+    font-weight: bold;
+    letter-spacing: 0.2px;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    margin-right: 15px;
+}
+
+ul li:nth-last-child(2) {
+    padding-right: 10px;
+    border-right: 1px solid grey;
+}
+
+ul li:last-child {
+    margin-right: none;
+}
+
+#profile {
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    background-color: rgb(104, 128, 194);
+}
